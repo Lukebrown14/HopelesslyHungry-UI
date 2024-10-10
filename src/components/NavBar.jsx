@@ -1,4 +1,4 @@
-import { CATEGORY_LIST } from "../utils/Constant";
+import { CATEGORY_LIST } from "../utils/constant";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {

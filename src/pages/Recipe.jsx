@@ -1,4 +1,4 @@
-import NavBar from "../components/navbar";
+import NavBar from "../components/NavBar";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 

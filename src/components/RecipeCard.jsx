@@ -1,16 +1,8 @@
 import { Link } from "react-router-dom";
 
 const RecipeCard = ({ recipeTitle, recipeDes }) => {
-  // const navigate = useNavigate();
-  // const handleClick = () => {
-  //   navigate(`/item`, { state: { key: recipeTitle } });
-  // };
-
   return (
-    <div
-      className="card bg-base-100 image-full w-72 shadow-xl cursor-pointer"
-      // onClick={handleClick}
-    >
+    <div className="card bg-base-100 image-full w-72 shadow-xl cursor-pointer">
       <figure>
         <img
           src="https://www.inspiredtaste.net/37475/homemade-chicken-noodle-soup-item/"

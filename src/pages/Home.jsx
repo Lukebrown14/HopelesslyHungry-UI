@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import NavBar from "../components/navbar";
+import NavBar from "../components/NavBar";
 import RecipeCard from "../components/RecipeCard";
 
 const Home = () => {
