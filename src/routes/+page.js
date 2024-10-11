@@ -3,8 +3,6 @@ export async function load({ fetch }) {
 	const data = await response.json();
 	const recipes = data.recipes;
 
-	console.log(recipes);
-
 	return {
 		recipes
 	};

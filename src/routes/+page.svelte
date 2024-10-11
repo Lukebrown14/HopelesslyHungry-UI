@@ -1,13 +1,15 @@
 <script>
+	import Card from '$lib/componets/Card.svelte';
 	export let data;
 </script>
 
 <h1 class="text-left p-6 text-3xl"><a href="/recipes" class="underline-style"> Recipes </a></h1>
 
-{#each data.recipes as recipe}
-	<h1>{recipe.name}</h1>
-	<p>{recipe.description}</p>
-{/each}
+<div class="flex space-x-5 pl-6">
+	{#each data.recipes as recipe}
+		<Card name={recipe.name} description={recipe.description} />
+	{/each}
+</div>
 
 <style lang="postcss">
 	:global(html) {
